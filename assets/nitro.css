@@ -1,0 +1,184 @@
+.modal-content {
+  background: #36393f !important;
+}
+.modal-header {
+  background: #4E5CED !important;
+  height: 100px !important;
+}
+.modal-img {
+  margin-top: 2px !important;
+  margin-left: 2px !important;
+}
+.modal-header {
+  border-bottom: none !important;
+}
+.btn-close {
+  filter: invert(100%); !important;
+}
+.modal-footer {
+  border-top: 1px solid hsla(0,0%,100%,0.06) !important;
+  background: #2f3136;
+  height: 70px;
+}
+.modal-brd-btm {
+  border-bottom: 1px solid hsla(0,0%,100%,0.06) !important;
+  margin: 0 16px !important;
+  padding: 16px 0 !important;
+  font-size: 14px !important;
+  font-weight: 600 !important;
+}
+.modal-body {
+  font-size: 14px !important;
+  font-weight: 600 !important;
+  color: #b9bbbe;
+}
+@keyframes negr {
+  0% {
+    transition-duration: 1s;
+    margin-top: 125px;
+  }
+  25% {
+    transition-duration: 1s;
+    margin-top: 135px;
+  }
+  50% {
+    transition-duration: 1s;
+    margin-top: 155px;
+  }
+  75% {
+    transition-duration: 1s;
+margin-top: 135px;
+  }
+  100% {
+    transition-duration: 1s;
+    margin-top: 125px;
+  }
+}
+#negro {
+  animation: negr 3s infinite normal;
+}
+* {
+  scroll-behavior: smooth;
+}
+.requisites {
+  border-radius: 5px;
+  width: 466px;
+  height: 225px;
+  background: #2f3136;
+  margin-top: 15px;
+}
+.requisite {
+  position: absolute;
+  margin-top: 15px !important;
+  margin-left: 15px !important;
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.requisite-s {
+  position: absolute;
+  margin-top: 100px !important;
+  margin-left: 15px !important;
+  color: #fff;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.dir-rtl {
+  direction: rtl;
+}
+.title-req {
+  position: absolute;
+  margin-top: 44px !important;
+  margin-left: 16px !important;
+  color: #b9bbbe;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.divider {
+  position: absolute;
+  background-color: hsla(0,0%,100%,0.06);
+  height: 1px;
+  width: 88%;
+  margin-left: 16px;
+  margin-right: 32px;
+  margin-top: 80px;
+}
+.req-price {
+  position: absolute;
+  margin-top: 47px;
+  right: 32px;
+  color: #b9bbbe;
+  font-size: 16px !important;
+  font-weight: 500 !important;
+}
+.a-back {
+  position: relative;
+  margin-right: 88% !important; 
+  color: white;
+  font-weight: 550;
+  width: 50px;
+  font-size: 14px;
+  border: none;
+  background: none;
+}
+.a-back:hover {
+  color: white;
+}
+.req-price:hover {
+  color: #b9bbbe;
+}
+.a-nal:hover {
+  color: gray !important;
+}
+.a-nal {
+  color: gray !important;
+}
+.a-nal-chik {
+  color: white !important;
+  position: absolute;
+  margin-top: 100px;
+  right: 32px;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.a-nal-chik:hover {
+  color: white;
+}
+.description-res {
+  font-weight: 500;
+  width: 90%;
+  margin-top: 20px;
+  font-size: 13px;
+
+}
+.uridik {
+  font-size: 12px;
+  color: gray;
+}
+.btn-conf {
+  background: #3BA55D;
+  width: 265px;
+  height: 37px;
+  color: white;
+  margin-top: 5px;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  position: absolute;
+}
+.modal {
+  user-select: none !important;
+}
+.dropdown-toggle {
+  background: #2f3136 !important;
+  margin-bottom: 5px;
+  border-color: #202225 !important;
+  text-align: left !important;
+  height: 45px;
+}
+#dropdownMenuButton1 {
+  width: 100%;
+}
+.dropdown-menu,li {
+  width: 100%;
+}
